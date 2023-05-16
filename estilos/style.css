@@ -35,11 +35,14 @@ section#login{
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/biulding.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/predio.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: left bottom;
